@@ -12,6 +12,7 @@
 		A6768F6D161E953D00C9425C /* Job.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A6768F6C161E953D00C9425C /* Job.1 */; };
 		A6768F78161EA51600C9425C /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = A6768F77161EA51600C9425C /* BankAccount.m */; };
 		A6768F7B161EA5F000C9425C /* SavingsAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = A6768F7A161EA5F000C9425C /* SavingsAccount.m */; };
+		A6768F92161EC7FD00C9425C /* CreditAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = A6768F91161EC7FD00C9425C /* CreditAccount.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		A6768F77161EA51600C9425C /* BankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
 		A6768F79161EA5F000C9425C /* SavingsAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavingsAccount.h; sourceTree = "<group>"; };
 		A6768F7A161EA5F000C9425C /* SavingsAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavingsAccount.m; sourceTree = "<group>"; };
+		A6768F90161EC7FD00C9425C /* CreditAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditAccount.h; sourceTree = "<group>"; };
+		A6768F91161EC7FD00C9425C /* CreditAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditAccount.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		A6768F67161E953D00C9425C /* Job */ = {
 			isa = PBXGroup;
 			children = (
+				A6768F90161EC7FD00C9425C /* CreditAccount.h */,
+				A6768F91161EC7FD00C9425C /* CreditAccount.m */,
 				A6768F76161EA51600C9425C /* BankAccount.h */,
 				A6768F77161EA51600C9425C /* BankAccount.m */,
 				A6768F79161EA5F000C9425C /* SavingsAccount.h */,
@@ -152,6 +157,7 @@
 				A6768F69161E953D00C9425C /* main.m in Sources */,
 				A6768F78161EA51600C9425C /* BankAccount.m in Sources */,
 				A6768F7B161EA5F000C9425C /* SavingsAccount.m in Sources */,
+				A6768F92161EC7FD00C9425C /* CreditAccount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 				A6768F72161E953D00C9425C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
