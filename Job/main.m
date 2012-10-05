@@ -26,11 +26,11 @@ int main(int argc, const char * argv[])
         
          NSLog (@"Interest earned = %f", interestEarned);
         
-        //NSArray *name = [[NSArray alloc] initWithObjects:@"sen",@"jack" ,nil];
+        NSArray *name = [[NSArray alloc] initWithObjects:@"sen",@"jack" ,nil];
         
-        /*for (int i = 0; i < [name count]; i ++) {
+        for (int i = 0; i < [name count]; i ++) {
             NSLog(@" name %i = %@",i+1,[name objectAtIndex:i]);
-        }*/
+        }
     }
     return 0;
 }
