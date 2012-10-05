@@ -15,7 +15,7 @@ int main(int argc, const char * argv[])
     
     @autoreleasepool {
         
-        /*SavingsAccount *savingAccount = [[SavingsAccount alloc] initWithAccountBalance:3010.1
+        SavingsAccount *savingAccount = [[SavingsAccount alloc] initWithAccountBalance:3010.1
                                                                       andAccountNumber:4543455
                                                                                andRate:0.001];
         
@@ -24,13 +24,13 @@ int main(int argc, const char * argv[])
         
         float interestEarned = [savingAccount calculateInterest];
         
-         NSLog (@"Interest earned = %f", interestEarned);*/
+         NSLog (@"Interest earned = %f", interestEarned);
         
         NSArray *name = [[NSArray alloc] initWithObjects:@"sen",@"jack" ,nil];
         
-        for (int i = 0; i < [name count]; i ++) {
+        /*for (int i = 0; i < [name count]; i ++) {
             NSLog(@" name %i = %@",i+1,[name objectAtIndex:i]);
-        }
+        }*/
     }
     return 0;
 }
